@@ -16,6 +16,7 @@ nav ul li{
 .navbar-nav > li > a:hover
 {
   color: #4b52e3  !important;
+  cursor: pointer;
 }
 .navbar-nav > li > a .active, .navbar-nav > li > a:focus
 {

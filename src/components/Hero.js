@@ -3,7 +3,7 @@ import Typewriter  from 'typewriter-effect'
 
 export default function Hero() {
   return (
-    <div className="hero-wrapper" >
+    <div className="hero-wrapper" id='home' >
         <div className="heroInfo">
             <h1 className='display-3'>Full Stack Web Developer</h1>
             <Typewriter  
