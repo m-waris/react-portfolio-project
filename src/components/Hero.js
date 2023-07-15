@@ -3,9 +3,9 @@ import Typewriter  from 'typewriter-effect'
 
 export default function Hero() {
   return (
-    <div className="hero-wrapper">
+    <div className="hero-wrapper" >
         <div className="heroInfo">
-            <h1>Full Stack Web Developer</h1>
+            <h1 className='display-3'>Full Stack Web Developer</h1>
             <Typewriter  
             onInit={(typewriter) => {
                 typewriter.typeString('Hello! I am a Full Stack Web Developer')

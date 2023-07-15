@@ -1,9 +1,8 @@
 
 nav{
-  background: rgb(0, 0, 0) !important;
+  background: rgba(0, 0, 0, 0.619) !important;
 
 }
-
 nav ul li{
   text-transform: uppercase;
 }
@@ -18,10 +17,11 @@ nav ul li{
 {
   color: #4b52e3  !important;
 }
-.navbar-nav > li > a:active, .navbar-nav > li > a:focus
+.navbar-nav > li > a .active, .navbar-nav > li > a:focus
 {
   border-bottom: #4b52e3 3px solid;
 }
+
 .hero-wrapper{
   background-image: linear-gradient(to bottom, rgba(25, 37, 69, 0.542) 15%, rgba(0, 0, 0, 0.718) 65%),
   url("https://images.unsplash.com/photo-1683813479742-4730f91fa3ec?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1170&q=80");
@@ -40,4 +40,38 @@ nav ul li{
   transform: translate(-50%, -50%);
   color: #fff;
   text-align: center;
+}
+.card{
+  background-color: rgba(52, 53, 60, 0.642) !important;
+  color: #fff !important;
+}
+.card-title{
+  color: grey !important;
+
+}
+@media screen and (min-width: 768px) {
+  .about-card{
+    margin-left: 100px;
+  } 
+}
+@media screen and (max-width: 700px) {
+  .about-card{
+    margin-left: 30px;
+  } 
+}
+.project-image :hover{
+  transform: scale(1.1);
+  transition: all 0.5s ease-in-out;
+}
+.popup-image > img{
+  z-index: 1000;
+  display: block;
+  border: 5px #fff solid;
+  max-width: 100%;
+  height: auto;
+  top: 15%;
+  left: 38%;
+  position: fixed;
+  background: rgba(0, 0, 0, 0.8);
+
 }
